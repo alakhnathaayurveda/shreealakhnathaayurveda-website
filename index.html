@@ -1,196 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SHREE ALAKHNATH AAYURVEDA</title>
+<section style="padding:40px 20px;background:#ffffff;">
+<h2 style="text-align:center;color:#2d5016;">📞 Contact Information</h2>
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
+<div style="max-width:900px;margin:auto;background:#f5f5f5;padding:25px;border-radius:15px;box-shadow:0 2px 10px rgba(0,0,0,.1);">
 
-body{
-background:#f5f5f5;
-}
+<p><strong>🏢 Company Name:</strong><br>
+SHREE ALAKHNATH AAYURVEDA OPC PRIVATE LIMITED
+</p>
 
-header{
-background:#2d5016;
-color:#fff;
-padding:15px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-position:sticky;
-top:0;
-z-index:1000;
-}
+<p><strong>👤 Founder & Managing Director:</strong><br>
+Yogi Alakhnath
+</p>
 
-.logo{
-font-size:22px;
-font-weight:bold;
-}
+<p><strong>📞 Mobile:</strong><br>
+<a href="tel:+919753427109">+91 9753427109</a>
+</p>
 
-.menu-btn{
-font-size:28px;
-cursor:pointer;
-}
+<p><strong>💬 WhatsApp:</strong><br>
+<a href="https://wa.me/919753427109" target="_blank">
+https://wa.me/919753427109
+</a>
+</p>
 
-.sidebar{
-position:fixed;
-left:-320px;
-top:0;
-width:320px;
-height:100%;
-background:#2d5016;
-overflow-y:auto;
-transition:.3s;
-z-index:9999;
-}
+<p><strong>📧 Email:</strong><br>
+<a href="mailto:info@shreealakhnathaayurveda.in">
+info@shreealakhnathaayurveda.in
+</a>
+</p>
 
-.sidebar.active{
-left:0;
-}
-
-.sidebar a{
-display:block;
-padding:15px;
-color:#fff;
-text-decoration:none;
-border-bottom:1px solid rgba(255,255,255,.1);
-}
-
-.sidebar a:hover{
-background:#d4af37;
-color:#000;
-}
-
-.hero{
-padding:60px 20px;
-text-align:center;
-background:linear-gradient(135deg,#2d5016,#1f3a0f);
-color:#fff;
-}
-
-.page{
-display:none;
-padding:40px 20px;
-}
-
-.page.active{
-display:block;
-}
-
-.float-btn{
-position:fixed;
-right:20px;
-width:60px;
-height:60px;
-border-radius:50%;
-display:flex;
-align-items:center;
-justify-content:center;
-font-size:24px;
-text-decoration:none;
-z-index:999;
-}
-
-.call{
-bottom:100px;
-background:red;
-color:#fff;
-}
-
-.whatsapp{
-bottom:30px;
-background:#25D366;
-color:#fff;
-}
-</style>
-</head>
-
-<body>
-
-<header>
-<div class="logo">🌿 SHREE ALAKHNATH AAYURVEDA</div>
-<div class="menu-btn" onclick="openMenu()">☰</div>
-</header>
-
-<div class="sidebar" id="sidebar">
-
-<a href="#" onclick="showPage('home')">🏠 HOME</a>
-<a href="#" onclick="showPage('founder')">👤 FOUNDER</a>
-<a href="#" onclick="showPage('company')">🏢 COMPANY</a>
-<a href="#" onclick="showPage('certificate')">📜 CERTIFICATE</a>
-<a href="#" onclick="showPage('corporate')">🏛 CORPORATE</a>
-<a href="#" onclick="showPage('news')">📰 NEWS & MEDIA</a>
-<a href="#" onclick="showPage('live-story')">📡 LIVE STORY</a>
-<a href="#" onclick="showPage('blog')">📝 BLOG & POST</a>
-<a href="#" onclick="showPage('live-program')">🎤 LIVE PROGRAM</a>
-<a href="#" onclick="showPage('video-gallery')">🎥 VIDEO GALLERY</a>
-<a href="#" onclick="showPage('photo-gallery')">🖼️ PHOTO GALLERY</a>
-<a href="#" onclick="showPage('ayurveda')">🌿 AYURVEDA</a>
-<a href="#" onclick="showPage('raw-herbs')">🪴 RAW HERBS</a>
-<a href="#" onclick="showPage('food-grains')">🌾 FOOD GRAINS</a>
-<a href="#" onclick="showPage('puja-items')">🕉 PUJA ITEMS</a>
-<a href="#" onclick="showPage('havan-items')">🔥 HAVAN ITEMS</a>
-<a href="#" onclick="showPage('house-items')">🏠 HOUSE ITEMS</a>
-<a href="#" onclick="showPage('dharmic-items')">🔱 DHARMIC ITEMS</a>
-<a href="#" onclick="showPage('program-items')">🎇 PROGRAM ITEMS</a>
-<a href="#" onclick="showPage('shop-category')">🛍️ SHOP CATEGORY</a>
-<a href="#" onclick="showPage('bulk-orders')">💰 BULK ORDERS</a>
-<a href="#" onclick="showPage('farmer-apply')">👨‍🌾 FARMER APPLY</a>
-<a href="#" onclick="showPage('retailer-apply')">🏪 RETAILER APPLY</a>
-<a href="#" onclick="showPage('customer-apply')">🤵🏻 CUSTOMER APPLY</a>
-<a href="#" onclick="showPage('distributor-apply')">🚛 DISTRIBUTOR APPLY</a>
-<a href="#" onclick="showPage('wholesaler-apply')">🤝 WHOLESALER APPLY</a>
-<a href="#" onclick="showPage('catalogue')">📄 PRODUCT CATALOGUE</a>
-<a href="#" onclick="showPage('import-export')">🚢 IMPORT & EXPORT</a>
-<a href="#" onclick="showPage('global-partners')">🌍 GLOBAL PARTNERS</a>
-<a href="#" onclick="showPage('business-network')">🌐 BUSINESS NETWORK</a>
-<a href="#" onclick="showPage('reviews')">⭐ CUSTOMER REVIEWS</a>
-<a href="#" onclick="showPage('training')">🎓 TRAINING CENTER</a>
-<a href="#" onclick="showPage('track-order')">🚚 TRACK ORDER</a>
-<a href="#" onclick="showPage('contact')">📞 CONTACT US</a>
-<a href="#" onclick="showPage('help')">🆘 HELP CENTER</a>
-<a href="#" onclick="showPage('faq')">❓ FAQ ALL SERVICE</a>
-<a href="#" onclick="showPage('whatsapp-support')">💬 WHATSAPP SUPPORT</a>
-<a href="#" onclick="showPage('locations')">📍 COMPANY LOCATIONS</a>
-<a href="#" onclick="showPage('language')">🗣️ CHOOSE LANGUAGE</a>
-<a href="#" onclick="showPage('app-download')">📱 APP DOWNLOAD NOW</a>
+<p><strong>📍 Address:</strong><br>
+Shree Hinglaj Mata Mandir Near,<br>
+Naya Harsud R.S.,<br>
+Naya Harsud,<br>
+District Khandwa,<br>
+Madhya Pradesh - 450116,<br>
+India
+</p>
 
 </div>
-
-<section class="hero">
-<h1>SHREE ALAKHNATH AAYURVEDA</h1>
-<p>Ancient Ayurveda • Modern Trust • Global Reach</p>
 </section>
-
-<div id="home" class="page active"><h2>🏠 HOME PAGE PLACEHOLDER</h2></div>
-<div id="founder" class="page"><h2>👤 FOUNDER PAGE PLACEHOLDER</h2></div>
-<div id="company" class="page"><h2>🏢 COMPANY PAGE PLACEHOLDER</h2></div>
-<div id="certificate" class="page"><h2>📜 CERTIFICATE PAGE PLACEHOLDER</h2></div>
-<div id="contact" class="page"><h2>📞 CONTACT PAGE PLACEHOLDER</h2></div>
-
-<a href="tel:+919753427109" class="float-btn call">📞</a>
-<a href="https://wa.me/919753427109" class="float-btn whatsapp">💬</a>
-
-<script>
-function openMenu(){
-document.getElementById('sidebar').classList.toggle('active');
-}
-
-function showPage(id){
-document.querySelectorAll('.page').forEach(p=>{
-p.classList.remove('active');
-});
-document.getElementById(id).classList.add('active');
-document.getElementById('sidebar').classList.remove('active');
-}
-</script>
-
-</body>
-    </html>
