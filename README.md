@@ -1,53 +1,61 @@
-PROJECT:
+CREATE A COMPLETE PROFESSIONAL RESPONSIVE WEBSITE
+
+COMPANY:
 SHREE ALAKHNATH AAYURVEDA OPC PRIVATE LIMITED
 
 TAGLINE:
 Ancient Ayurveda • Modern Trust • Global Reach
 
-IMPORTANT WEBSITE MENU / HAMBURGER MENU / NAVIGATION MENU RESTRUCTURE UPDATE
+IMPORTANT:
 
-CRITICAL INSTRUCTION
+Create a COMPLETE single-file index.html website.
 
-Completely remove and replace the entire existing navigation system including:
+Include all HTML, CSS and JavaScript inside one file.
 
-• Website Menu
-• Hamburger Menu
-• Mobile Menu
-• Desktop Menu
-• Drawer Menu
-• Side Menu
-• Navigation Icons
-• Navigation Framework
-• Routing Structure
+Do not use external frameworks.
 
-Create a professional, responsive, SEO-friendly navigation system.
+Do not require any additional files.
 
-AT THIS STAGE CREATE ONLY:
+The website must work immediately on GitHub Pages.
 
-• Menu Buttons
-• Navigation Links
-• Routing Structure
-• Empty Page Placeholders
-• Navigation Framework
-• URL Structure
+DESIGN REQUIREMENTS
 
-DO NOT CREATE:
+✓ Premium Corporate Design
+✓ Ayurveda Theme
+✓ Green + Gold + White Color Scheme
+✓ Mobile First Design
+✓ Responsive Design
+✓ Sticky Header
+✓ Professional Footer
+✓ Modern UI
+✓ Fast Loading
+✓ SEO Optimized
 
-• Page Content
-• Articles
-• Product Content
-• Product Details
-• Product Images
-• Forms
-• Videos
-• Galleries
-• Certificates
-• Blog Content
-• News Content
-• Descriptions
-• Detailed Sections
+HEADER REQUIREMENTS
 
-MENU STRUCTURE (EXACT ORDER)
+✓ Company Logo Area
+✓ Company Name
+✓ Tagline
+✓ Search Box
+✓ Dark Mode Toggle
+✓ Language Switcher
+✓ Call Button
+✓ WhatsApp Button
+
+MOBILE REQUIREMENTS
+
+✓ Hamburger Menu
+✓ Slide Drawer Navigation
+✓ Mobile Optimized
+✓ Touch Friendly
+
+DESKTOP REQUIREMENTS
+
+✓ Full Navigation Menu
+✓ Sticky Navigation
+✓ Responsive Layout
+
+MENU STRUCTURE EXACT ORDER
 
 🏠 HOME
 👤 FOUNDER
@@ -72,7 +80,7 @@ MENU STRUCTURE (EXACT ORDER)
 💰 BULK ORDERS
 👨‍🌾 FARMER APPLY
 🏪 RETAILER APPLY
-🤵🏻 CUSTOMER APPLY
+🤵 CUSTOMER APPLY
 🚛 DISTRIBUTOR APPLY
 🤝 WHOLESALER APPLY
 📄 PRODUCT CATALOGUE
@@ -90,107 +98,49 @@ MENU STRUCTURE (EXACT ORDER)
 🗣️ CHOOSE LANGUAGE
 📱 APP DOWNLOAD NOW
 
-SEO URL ROUTES
+PAGE REQUIREMENTS
 
-/home
-/founder
-/company
-/certificate
-/corporate
-/news-media
-/live-story
-/blog-post
-/live-program
-/video-gallery
-/photo-gallery
-/ayurveda
-/raw-herbs
-/food-grains
-/puja-items
-/havan-items
-/house-items
-/dharmic-items
-/program-items
-/shop-category
-/bulk-orders
-/farmer-apply
-/retailer-apply
-/customer-apply
-/distributor-apply
-/wholesaler-apply
-/product-catalogue
-/import-export
-/global-partners
-/business-network
-/customer-reviews
-/training-center
-/track-order
-/contact-us
-/help-center
-/faq-all-service
-/whatsapp-support
-/company-locations
-/choose-language
-/app-download-now
+Create separate page placeholder sections for every menu item.
 
-MANDATORY FEATURES
+Each page placeholder must contain:
 
-✓ Same Menu Structure on Desktop and Mobile
+✓ Page Title
+✓ Page Route
+✓ Placeholder Box
 
-✓ Responsive Hamburger Menu
+NO CONTENT YET.
 
-✓ Sticky Header Navigation
+DO NOT ADD:
 
-✓ Search Function Active
+✗ Products
+✗ Product Details
+✗ Articles
+✗ News Content
+✗ Blog Content
+✗ Forms
+✗ Gallery Images
+✗ Videos
+✗ Certificates
+✗ Descriptions
 
-✓ Language Switcher Active
+EXTRA FEATURES
 
-✓ Dark Mode Toggle Active
+✓ Floating WhatsApp Button
+✓ Floating Call Button
+✓ Scroll To Top Button
+✓ Search Function
+✓ Dark Mode
+✓ Language Selector
+✓ Professional Footer
+✓ SEO Meta Tags
+✓ Accessibility Support
 
-✓ Click-to-Call Button Active
+OUTPUT:
 
-✓ WhatsApp Floating Button Active
+Provide complete ready-to-use index.html code only.
 
-✓ Fast Loading Navigation
+No explanation.
 
-✓ Mobile Optimized
+No markdown.
 
-✓ SEO Friendly URL Structure
-
-✓ Accessibility Friendly
-
-✓ Corporate Premium Design
-
-✓ Future Ready Scalable Architecture
-
-PAGE PLACEHOLDERS
-
-Create an individual empty page component for every menu item.
-
-Each page should contain only:
-
-Page Title
-
-Page Route
-
-Placeholder Container
-
-No Content
-
-FINAL INSTRUCTION
-
-After navigation system, routes, page placeholders and menu framework are completed, STOP.
-
-Do not generate any page content.
-
-Do not generate products.
-
-Do not generate articles.
-
-Do not generate galleries.
-
-Do not generate forms.
-
-Do not generate descriptions.
-
-Wait for further instructions.
+Only final code.
