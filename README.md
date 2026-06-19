@@ -1309,8 +1309,8 @@
                 <button class="icon-button" id="searchToggle" title="Search">🔍</button>
                 <button class="icon-button" id="darkModeToggle" title="Dark Mode">🌙</button>
                 <button class="icon-button" id="languageToggle" title="Language">🌐</button>
-                <a href="tel:+919999999999" class="icon-button" title="Call">📞</a>
-                <a href="https://wa.me/919999999999" target="_blank" class="icon-button" title="WhatsApp">💬</a>
+                <a href="tel:+919713327109" class="icon-button" title="Call">📞</a>
+                <a href="https://wa.me/919713327109" target="_blank" class="icon-button" title="WhatsApp">💬</a>
                 <button class="icon-button hamburger" id="hamburger" title="Menu">
                     <span></span>
                     <span></span>
@@ -1343,7 +1343,7 @@
                 <p class="hero-tagline">Ancient Ayurveda • Modern Trust • Global Reach</p>
                 <div class="hero-buttons">
                     <button class="btn btn-primary" onclick="navigateTo('contact')">📞 Contact Now</button>
-                    <a href="https://wa.me/919999999999" target="_blank" class="btn btn-secondary">💬 WhatsApp</a>
+                    <a href="https://wa.me/919713327109" target="_blank" class="btn btn-secondary">💬 WhatsApp</a>
                 </div>
             </div>
         </section>
@@ -1711,7 +1711,7 @@
                     <h3>Contact & Support</h3>
                     <div class="footer-contact">
                         <span class="footer-contact-icon">📞</span>
-                        <span>+91 99999 99999</span>
+                        <span>+91 97133 27109</span>
                     </div>
                     <div class="footer-contact">
                         <span class="footer-contact-icon">📧</span>
