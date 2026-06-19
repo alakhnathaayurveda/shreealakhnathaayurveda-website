@@ -1,124 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>SHREE ALAKHNATH AAYURVEDA OPC PRIVATE LIMITED</title>
-
-<meta name="description" content="Ancient Ayurveda • Modern Trust • Global Reach">
-<meta name="keywords" content="Ayurveda, Herbal Products, Natural Wellness, Shree Alakhnath Ayurveda">
-
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, sans-serif;
+<title>SHREE ALAKHNATH AAYURVEDA OPC PRIVATE LIMITED</title><style>
+body{margin:0;font-family:Arial,sans-serif}
+header{background:#0b6b2f;color:#fff;padding:15px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:bold}
+.menu-btn{font-size:28px;cursor:pointer}
+.drawer{
+position:fixed;left:-350px;top:0;width:350px;height:100%;
+background:#0b6b2f;overflow:auto;transition:.3s;padding-top:60px
 }
-
-body{
-    background:#f8fdf5;
-    color:#333;
+.drawer.active{left:0}
+.drawer a{
+display:block;color:#fff;text-decoration:none;
+padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.1)
 }
-
-header{
-    background:linear-gradient(135deg,#0b6b2f,#d4af37);
-    color:white;
-    text-align:center;
-    padding:60px 20px;
+.page{display:none;padding:40px}
+.page.active{display:block}
+.floating{
+position:fixed;right:15px;bottom:15px;display:flex;
+flex-direction:column;gap:10px
 }
-
-header h1{
-    font-size:2.5rem;
+.float-btn{
+background:#25D366;color:#fff;padding:12px 15px;
+border-radius:50px;text-decoration:none
 }
+</style></head>
+<body><header>
+<div class="logo">🌿 SHREE ALAKHNATH AAYURVEDA</div>
+<div class="menu-btn" onclick="toggleMenu()">☰</div>
+</header><div id="drawer" class="drawer"><a href="#" onclick="showPage('home')">🏠 HOME</a>
+<a href="#" onclick="showPage('founder')">👤 FOUNDER</a>
+<a href="#" onclick="showPage('company')">🏢 COMPANY</a>
+<a href="#" onclick="showPage('certificate')">📜 CERTIFICATE</a>
+<a href="#" onclick="showPage('corporate')">🏛 CORPORATE</a>
+<a href="#" onclick="showPage('news')">📰 NEWS & MEDIA</a>
+<a href="#" onclick="showPage('live-story')">📡 LIVE STORY</a>
+<a href="#" onclick="showPage('blog-post')">📝 BLOG & POST</a>
+<a href="#" onclick="showPage('live-program')">🎤 LIVE PROGRAM</a>
+<a href="#" onclick="showPage('video-gallery')">🎥 VIDEO GALLERY</a>
+<a href="#" onclick="showPage('photo-gallery')">🖼️ PHOTO GALLERY</a>
+<a href="#" onclick="showPage('ayurveda')">🌿 AYURVEDA</a>
+<a href="#" onclick="showPage('raw-herbs')">🪴 RAW HERBS</a>
+<a href="#" onclick="showPage('food-grains')">🌾 FOOD GRAINS</a>
+<a href="#" onclick="showPage('puja-items')">🕉 PUJA ITEMS</a>
+<a href="#" onclick="showPage('havan-items')">🔥 HAVAN ITEMS</a>
+<a href="#" onclick="showPage('house-items')">🏠 HOUSE ITEMS</a>
+<a href="#" onclick="showPage('dharmic-items')">🔱 DHARMIC ITEMS</a>
+<a href="#" onclick="showPage('program-items')">🎇 PROGRAM ITEMS</a>
+<a href="#" onclick="showPage('shop-category')">🛍️ SHOP CATEGORY</a>
+<a href="#" onclick="showPage('bulk-orders')">💰 BULK ORDERS</a>
+<a href="#" onclick="showPage('farmer-apply')">👨‍🌾 FARMER APPLY</a>
+<a href="#" onclick="showPage('retailer-apply')">🏪 RETAILER APPLY</a>
+<a href="#" onclick="showPage('customer-apply')">🤵🏻 CUSTOMER APPLY</a>
+<a href="#" onclick="showPage('distributor-apply')">🚛 DISTRIBUTOR APPLY</a>
+<a href="#" onclick="showPage('wholesaler-apply')">🤝 WHOLESALER APPLY</a>
+<a href="#" onclick="showPage('product-catalogue')">📄 PRODUCT CATALOGUE</a>
+<a href="#" onclick="showPage('import-export')">🚢 IMPORT & EXPORT</a>
+<a href="#" onclick="showPage('global-partners')">🌍 GLOBAL PARTNERS</a>
+<a href="#" onclick="showPage('business-network')">🌐 BUSINESS NETWORK</a>
+<a href="#" onclick="showPage('customer-reviews')">⭐ CUSTOMER REVIEWS</a>
+<a href="#" onclick="showPage('training-center')">🎓 TRAINING CENTER</a>
+<a href="#" onclick="showPage('track-order')">🚚 TRACK ORDER</a>
+<a href="#" onclick="showPage('contact')">📞 CONTACT US</a>
+<a href="#" onclick="showPage('help-center')">🆘 HELP CENTER</a>
+<a href="#" onclick="showPage('faq-service')">❓ FAQ ALL SERVICE</a>
+<a href="#" onclick="showPage('whatsapp-support')">💬 WHATSAPP SUPPORT</a>
+<a href="#" onclick="showPage('company-locations')">📍 COMPANY LOCATIONS</a>
+<a href="#" onclick="showPage('choose-language')">🗣️ CHOOSE LANGUAGE</a>
+<a href="#" onclick="showPage('app-download')">📱 APP DOWNLOAD NOW</a>
 
-header p{
-    margin-top:10px;
-    font-size:1.2rem;
+</div><div id="home" class="page active"><h2>🏠 HOME</h2><p>Page Placeholder</p></div>
+<div id="founder" class="page"><h2>👤 FOUNDER</h2><p>Page Placeholder</p></div>
+<div id="company" class="page"><h2>🏢 COMPANY</h2><p>Page Placeholder</p></div>
+<div id="certificate" class="page"><h2>📜 CERTIFICATE</h2><p>Page Placeholder</p></div>
+<div id="corporate" class="page"><h2>🏛 CORPORATE</h2><p>Page Placeholder</p></div><script>
+function toggleMenu(){
+document.getElementById('drawer').classList.toggle('active');
 }
-
-.btn{
-    display:inline-block;
-    margin-top:20px;
-    padding:12px 25px;
-    background:white;
-    color:#0b6b2f;
-    text-decoration:none;
-    border-radius:30px;
-    font-weight:bold;
+function showPage(id){
+document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+document.getElementById(id).classList.add('active');
+document.getElementById('drawer').classList.remove('active');
 }
-
-section{
-    padding:50px 20px;
-    max-width:1200px;
-    margin:auto;
-}
-
-.card{
-    background:white;
-    padding:25px;
-    border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.1);
-    margin-bottom:20px;
-}
-
-footer{
-    background:#0b6b2f;
-    color:white;
-    text-align:center;
-    padding:20px;
-}
-</style>
-</head>
-
-<body>
-
-<header>
-    <h1>🌿 SHREE ALAKHNATH AAYURVEDA</h1>
-    <p>Ancient Ayurveda • Modern Trust • Global Reach</p>
-    <a href="#about" class="btn">Explore More</a>
-</header>
-
-<section id="about">
-    <div class="card">
-        <h2>About Us</h2>
-        <p>
-            SHREE ALAKHNATH AAYURVEDA OPC PRIVATE LIMITED is dedicated to
-            promoting authentic Ayurvedic wellness solutions with modern quality standards.
-        </p>
-    </div>
-
-    <div class="card">
-        <h2>🌿 Our Products</h2>
-        <p>
-            Premium Ayurvedic Medicines, Herbal Powders, Oils, Health Supplements,
-            Personal Care Products and Raw Herbs.
-        </p>
-    </div>
-
-    <div class="card">
-        <h2>🌍 Import & Export</h2>
-        <p>
-            We aim to deliver authentic Indian Ayurveda products to customers across the globe.
-        </p>
-    </div>
-
-    <div class="card">
-        <h2>📞 Contact Us</h2>
-        <p>
-            SHREE ALAKHNATH AAYURVEDA OPC PRIVATE LIMITED<br>
-            Madhya Pradesh, India<br>
-            Email: info@shreealakhnathaayurveda.in
-        </p>
-    </div>
-</section>
-
-<footer>
-    © 2026 SHREE ALAKHNATH AAYURVEDA OPC PRIVATE LIMITED
-    <br>
-    All Rights Reserved.
-</footer>
-
-</body>
+</script></body>
 </html>
